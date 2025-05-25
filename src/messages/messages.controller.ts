@@ -4,9 +4,7 @@ import { CreateMessageDto } from './dtos/create-message.dto';
 @Controller('messages')
 export class MessagesController {
     @Get()
-    listMessages(){
-
-    }
+    listMessages(){ }
 
     @Post()
     createMessages(@Body() body: CreateMessageDto) {
